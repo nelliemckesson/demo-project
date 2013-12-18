@@ -6,21 +6,31 @@
     "03-toc.html",
     "04-preface.html",
     "05-chapter.html",
+    "table.html",
+    "GETTING-STARTED.html",
     "06-appendix.html"
   ],
   "formats": {
     "pdf": {
       "version": "web",
-      "toc": true
+      "toc": true,
+      "index": false
     },
     "epub": {
+      "index": false,
+      "toc": true,
+      "epubcheck": false
     },
     "mobi": {
+      "index": false,
+      "toc": true
     },
     "html": {
-      "toc": true
+      "toc": true,
+      "index": false,
+      "consolidated": false
     }
   },
-  "theme": "oreillymedia/atlas_tech1c_theme",
+  "theme": "oreillymedia/animal_theme",
   "title": "Demo Project"
 }
