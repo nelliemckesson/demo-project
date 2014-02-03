@@ -5,7 +5,28 @@
 }
 
 aside.notepad {
-  background-image: url('top-01.png'), url('bottom-01.png');/*, url('middle-01.png');*/
+  background-image: url('middle-01.png');
+  background-position: left top;
+  background-repeat: repeat-y; 
+  background-size: auto 0.25in;
+}
+
+aside.notepad:before {
+  background-image: url('top-01.png');
   background-position: left top, left bottom;/*, left top;*/
   background-repeat: no-repeat; /*, repeat-y;*/
+  background-size: auto 0.25in;
+  display: block;
+  height: 0.25in;
+  margin-bottom: 0;
+}
+
+aside.notepad:after {
+  background-image: url('bottom-01.png');
+  background-position: left bottom;
+  background-repeat: no-repeat; 
+  background-size: auto 0.25in;
+  display: block;
+  height: 0.25in;
+  margin-top: 0;
 }
