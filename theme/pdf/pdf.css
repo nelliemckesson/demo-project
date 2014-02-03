@@ -4,7 +4,7 @@
  size: 6in 9in;
 }
 
-.notepad {
+aside.notepad {
   background-image: url('top-01.png'), url('bottom-01.png'), url('middle-01.png');
   background-position: left top, left bottom, left top;
   background-repeat: no-repeat, no-repeat, repeat-y;
