@@ -9,10 +9,12 @@ aside.notepad {
   background-position: left top;
   background-repeat: repeat-y; 
   background-size: auto 0.25in;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 aside.notepad:before {
-  content: " "; /*url('top-01.png');*/
+  content: " ";
   background-image: url('top-01.png');
   background-position: left top, left bottom;/*, left top;*/
   background-repeat: no-repeat; /*, repeat-y;*/
@@ -23,7 +25,7 @@ aside.notepad:before {
 }
 
 aside.notepad:after {
-  content: url('bottom-01.png');
+  content: " ";
   background-image: url('bottom-01.png');
   background-position: left bottom;
   background-repeat: no-repeat; 
