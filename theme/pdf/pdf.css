@@ -12,6 +12,7 @@ aside.notepad {
 }
 
 aside.notepad:before {
+  content: url('top-01.png');
   background-image: url('top-01.png');
   background-position: left top, left bottom;/*, left top;*/
   background-repeat: no-repeat; /*, repeat-y;*/
@@ -22,6 +23,7 @@ aside.notepad:before {
 }
 
 aside.notepad:after {
+  content: url('bottom-01.png');
   background-image: url('bottom-01.png');
   background-position: left bottom;
   background-repeat: no-repeat; 
