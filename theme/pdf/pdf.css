@@ -12,7 +12,7 @@ aside.notepad {
 }
 
 aside.notepad:before {
-  content: url('top-01.png');
+  content: " "; /*url('top-01.png');*/
   background-image: url('top-01.png');
   background-position: left top, left bottom;/*, left top;*/
   background-repeat: no-repeat; /*, repeat-y;*/
